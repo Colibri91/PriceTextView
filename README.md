@@ -11,3 +11,15 @@ Attributes :
 - currency (string option and you can add whatever you want)
 - currencyPositionToLeft (default state is false, you can move currency left of your price)
 - removeSpaceBetweenCurrencyAndPrice (if you do not want space between price and curency, you can set this true)
+
+```
+  <com.mertdolar.PriceTextView
+                android:id="@+id/tvUserName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:textfont="@string/avenir_book"
+                app:isStrikethrough="true"
+                app:currency="$"
+                app:currencyPositionToLeft="true"
+                app:removeSpaceBetweenCurrencyAndPrice="true"/>
+```
