@@ -17,7 +17,7 @@ Attributes :
                 android:id="@+id/tvUserName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:textfont="@string/avenir_book"
+                app:textfont="modern_pro.ttf"
                 app:isStrikethrough="true"
                 app:currency="$"
                 app:currencyPositionToLeft="true"
