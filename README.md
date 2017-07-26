@@ -1,6 +1,21 @@
 # PriceTextView
 PriceTextView will be lifesaver for e-commerce and price included applications.
 
+# How to Install
+Add it in your root build.gradle at the end of repositories:
+
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+Step 2. Add the dependency
+
+	dependencies {
+	        compile 'com.github.Colibri91:PriceTextView:0.1.0'
+	}
+
 # Usage
 After importing the library you can set PriceTextView attributes. 
 
